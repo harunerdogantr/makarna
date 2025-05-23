@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { menuData } from './data/menu'
-import React from 'react'
+
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(menuData[0].id)
